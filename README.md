@@ -12,7 +12,20 @@
   <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
   <img src="https://img.shields.io/badge/platforms-11-orange" alt="platforms"/>
-  <img src="https://img.shields.io/badge/tampermonkey-compatible-brightgreen" alt="tampermonkey"/>
+  <img src="https://img.shields.io/badge/language-JavaScript-f7df1e?logo=javascript&logoColor=black" alt="javascript"/>
+</p>
+
+<p align="center">
+  <a href="https://greasyfork.org/zh-CN/scripts/568176-aimsgexport"><img src="https://img.shields.io/badge/Greasy_Fork-安装-red?logo=greasyfork&logoColor=white" alt="Greasy Fork"/></a>
+  <a href="https://scriptcat.org/zh-CN/script-show-page/5502"><img src="https://img.shields.io/badge/ScriptCat-安装-blue" alt="ScriptCat"/></a>
+  <a href="https://github.com/QingJ01/AiMsgExport"><img src="https://img.shields.io/github/stars/QingJ01/AiMsgExport?style=flat&logo=github&label=Stars" alt="GitHub Stars"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Tampermonkey-compatible-brightgreen?logo=tampermonkey&logoColor=white" alt="tampermonkey"/>
+  <img src="https://img.shields.io/badge/Violentmonkey-compatible-brightgreen" alt="violentmonkey"/>
+  <img src="https://img.shields.io/badge/Greasemonkey-compatible-brightgreen" alt="greasemonkey"/>
+  <img src="https://img.shields.io/badge/ScriptCat-compatible-brightgreen" alt="scriptcat"/>
 </p>
 
 ---
@@ -51,12 +64,17 @@
 - [Tampermonkey](https://www.tampermonkey.net/)（推荐）
 - [Violentmonkey](https://violentmonkey.github.io/)
 - [Greasemonkey](https://www.greasespot.net/)
+- [ScriptCat](https://scriptcat.org/)
 
 ### 安装脚本
 
-1. 打开用户脚本管理器的「添加新脚本」页面
-2. 将 `ai-chat-export.user.js` 的全部内容复制粘贴进去
-3. 保存，刷新目标 AI 对话页面
+从以下任一渠道安装：
+
+- **ScriptCat**：[https://scriptcat.org/zh-CN/script-show-page/5502](https://scriptcat.org/zh-CN/script-show-page/5502)
+- **Greasy Fork**：[https://greasyfork.org/zh-CN/scripts/568176-aimsgexport](https://greasyfork.org/zh-CN/scripts/568176-aimsgexport)
+- **GitHub 直装**：[https://github.com/QingJ01/AiMsgExport/raw/refs/heads/main/AiMsgExport.user.js](https://github.com/QingJ01/AiMsgExport/raw/refs/heads/main/AiMsgExport.user.js)
+
+点击链接后，用户脚本管理器会自动弹出安装提示，确认安装即可。
 
 ## 使用方法
 
