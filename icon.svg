@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="64" y1="30" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E7FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Chat bubble shape (subtle, behind arrow) -->
+  <path d="M30 38C30 33.5817 33.5817 30 38 30H90C94.4183 30 98 33.5817 98 38V74C98 78.4183 94.4183 82 90 82H72L64 92L56 82H38C33.5817 82 30 78.4183 30 74V38Z" fill="rgba(255,255,255,0.15)"/>
+  <!-- Download arrow -->
+  <path d="M64 36V72" stroke="url(#arrow)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M48 60L64 76L80 60" stroke="url(#arrow)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bottom bar -->
+  <path d="M40 88H88" stroke="url(#arrow)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Sparkle top-right -->
+  <path d="M96 22L97.5 27L102.5 28.5L97.5 30L96 35L94.5 30L89.5 28.5L94.5 27L96 22Z" fill="#FDE68A"/>
+  <!-- Sparkle small -->
+  <path d="M36 20L37 23L40 24L37 25L36 28L35 25L32 24L35 23L36 20Z" fill="#FDE68A" opacity="0.7"/>
+</svg>
